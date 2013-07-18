@@ -64,6 +64,12 @@ form_helpers.mob_localization = {
 
 }
 
+//form helpers end here
+
+
+//validate field details
+//validate 
+
 
 //form validators
 var form_validators  = {
