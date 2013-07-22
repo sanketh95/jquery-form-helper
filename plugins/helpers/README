@@ -1,0 +1,25 @@
+This file gives you a step-wise proceduring to develop new form helpers.
+
+USAGE:
+In order to add a new form helper :
+1)Create a file <helpername>.js in thiss directory.
+2)In this file add the following snippet.
+
+form_helpers.add_helper(hname,function(inpel){
+//Inpel is the input element to which this helper needs to be applied.
+//fname is the name of the helper function. Can be anything you like but
+//needs to be called with the same name.
+});
+
+I have created a separate folder for adding new mobile helpers.So please add new mobile heplers in the mobile_localization folder.
+In order to add a new mobile helper i.e, a helper for mobile numbers of a new country:
+1)Create a file <helpername>.js in mobile_localization directory.
+2)In the file add the following snippet
+
+form_helpers.mobile_localization.add(fname,function(inpel){
+
+//Inpel is the input element to which this helper needs to be applied.
+//fname is the name of the helper function. Can be anything you like but 
+//needs to be called with the same name.
+
+});
