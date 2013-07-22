@@ -1,11 +1,12 @@
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="jquery-form-helper.js"></script>
 
-
-<form action="" method="get">
+<form action="test.php" method="get">
 	<input type="text" placeholder="Mobile" req mob>
 	<input type="submit" value="submit">
 </form>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="jquery-form-helper.js"></script>
 <script type="text/javascript">
-
+$('form').each(function(){
+	form_validators.validate($(this));
+});
 </script>

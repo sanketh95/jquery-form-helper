@@ -1,0 +1,7 @@
+input.error select.error{
+	outline: 1px solid red;
+}
+
+input.error:focus{
+	outline:1px solid red;
+}
