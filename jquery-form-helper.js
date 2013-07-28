@@ -1,7 +1,6 @@
 
 /*
 FORM-HELPERS AND VALIDATORS
-
 */
 
 //form helpers
@@ -82,12 +81,6 @@ var form_validators  = {
 //field validators
 //default field validators: email, mobile
 form_validators.field_validators = {
-
-	//Validate email field
-	//return true if valid else false
-	email: function(email){
-
-	}
 
 }
 
