@@ -47,10 +47,19 @@ var form_validators  = {
 				//check if the value is valid
 				if(tg == "INPUT"){
 
+					//If field empty
 					if(obj.value == ""){
+						$(this).addClass('errinp');
 						flag = false;	
 					}
 				
+				}
+				else if(tg == "SELECT"){
+					//Empty value
+					if($('option:selected',$(this)).val() == ""){
+						$(this).addClass('errinp');
+						flag = false;
+					}
 				}
 			});
 		
