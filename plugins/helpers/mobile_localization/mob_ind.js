@@ -1,6 +1,6 @@
 
 //form helper code for indian mobiles
-form_helpers.mobile_localization.add('mob_ind',function(inpel){
+form_helpers.mob_localization.add('mob_ind',function(inpel){
 	inpel.keydown(function(event){
 
 			
