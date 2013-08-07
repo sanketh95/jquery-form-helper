@@ -134,6 +134,11 @@ form_helpers.mob_localization.add('mob_ind',function(inpel){
 		});
 });
 
+//Default mobile helper
+form_helpers.mob_localization.add('mob',function(inpel){
+	form_helpers.mob_localization.mob_ind(inpel);
+});
+
 //date field validator
 form_validators.add_custom_field_validator('date',function(d,format,separator){
 	if(!isNaN(separator)){
